@@ -31,7 +31,7 @@ module.exports = {
       return templateVersion
     },
   },
-  
+
   prompts: {
     name: {
       when: 'isNotTest',
@@ -155,6 +155,40 @@ module.exports = {
           short: 'no',
         },
       ],
+    },
+    ECharts: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Use ECharts?',
+    },
+    Element: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Use Element UI?',
+    },
+    apiHost: {
+      when: 'isNotTest',
+      type: 'string',
+      required: true,
+      message: 'place set api host eg: alphalawyer.cn',
+    },
+    devDomain: {
+      when: 'isNotTest',
+      type: 'string',
+      required: true,
+      message: 'place set dev domain eg: dev',
+    },
+    testDomain: {
+      when: 'isNotTest',
+      type: 'string',
+      required: true,
+      message: 'place set test domain eg: test',
+    },
+    prodDomain: {
+      when: 'isNotTest',
+      type: 'string',
+      required: true,
+      message: 'place set prod domain eg: www',
     },
   },
   filters: {

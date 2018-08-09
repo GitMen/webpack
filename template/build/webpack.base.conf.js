@@ -18,7 +18,7 @@ const createLintingRule = () => ({
     emitWarning: !config.dev.showEslintErrorsInOverlay
   }
 })
-
+const ENTRY = process.env.ENTRY
 module.exports = {
   externals:{
     "vue":"Vue",
@@ -26,7 +26,7 @@ module.exports = {
     'echarts': 'echarts'
   },
   context: path.resolve(__dirname, '../'),
-  entry: utils.getEntry('lawyer'),
+  entry: utils.getEntry(ENTRY),
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',

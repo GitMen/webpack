@@ -3,10 +3,9 @@
 // see http://vuejs-templates.github.io/webpack for documentation.
 
 const path = require('path')
-
+const ENTRY = process.env.ENTRY
 module.exports = {
   dev: {
-
     // Paths
     env: require('./dev.env'),
     assetsSubDirectory: 'static',
@@ -15,8 +14,8 @@ module.exports = {
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 9090, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
-    index: path.resolve(__dirname, '../vuew-dev-dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../vuew-dev-dist'),
+    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist'),
     productionSourceMap: true,
     autoOpenBrowser: false,
     errorOverlay: true,
@@ -48,13 +47,12 @@ module.exports = {
     cssSourceMap: true
   },
   test: {
-    testEnv: require('./test.env'),
+    env: require('./test.env'),
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 9091,
     // Template for index.html
-    index: path.resolve(__dirname, '../discovery-test-dist/index.html'),
-    // Paths
-    assetsRoot: path.resolve(__dirname, '../discovery-test-dist'),
+    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 
@@ -81,12 +79,10 @@ module.exports = {
   },
 
   build: {
-    prodEnv: require('./prod.env'),
-    testEnv: require('./test.env'),
+    env: require('./prod.env'),
     // Template for index.html
-    index: path.resolve(__dirname, '../discovery-dist/index.html'),
-    // Paths
-    assetsRoot: path.resolve(__dirname, '../discovery-dist'),
+    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 

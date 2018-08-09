@@ -1,0 +1,66 @@
+@import "./constant.styl"
+
+html,body
+  width 100%
+  height 100%
+body
+  overflow hidden
+html,body,div,h1,h2,h3,h4,h5,h6,ol,ul,li,p,pre
+  padding 0
+  margin 0
+ul,li
+  list-style none
+body
+  background #fff
+  color #4a4a4a
+  font 16px/1.5 "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+  -webkit-font-smoothing antialiased
+  text-align justify
+  line-height 1.57
+  font-weight regularF
+pre, input, textarea, button
+  font-family "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+a
+  color #333
+  cursor pointer
+  text-decoration none
+span 
+  outline 0
+img[src=""]
+  opacity 0
+
+table
+  border-collapse collapse
+table tr
+  border-bottom 1px solid lightBorderColor 
+  height 45px
+table tr td
+  padding: 10px 20px 10px 0
+
+.hidden-scrollbar::-webkit-scrollbar
+  display none
+
+.text-apostrophe
+  overflow hidden
+  text-overflow ellipsis
+  white-space nowrap
+
+.clear:after
+  content ""
+  clear both
+  display block
+  height 0
+  visibility hidden
+
+.empty-data-text
+  font-size 16px
+  color lightGrayText
+  text-align center
+  margin-top 100px
+
+.el-message-box .el-button--primary
+  background-color #000000
+  border-color: #000000
+  &:hover
+    background-color #4a4a4a
+    border-color: #4a4a4a
