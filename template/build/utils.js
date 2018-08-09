@@ -100,7 +100,6 @@ exports.createNotifierCallback = () => {
   }
 }
 
-
 // entry 配置
 exports.getEntry = function (entry) {
   var path = `./src/pages/${entry}/main.js`
