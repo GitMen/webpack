@@ -14,8 +14,8 @@ module.exports = {
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 9090, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
-    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist'),
+    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY + '-dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY + '-dist'),
     productionSourceMap: true,
     autoOpenBrowser: false,
     errorOverlay: true,
@@ -51,8 +51,8 @@ module.exports = {
     host: 'localhost', // can be overwritten by process.env.HOST
     port: 9091,
     // Template for index.html
-    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist'),
+    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY + '-dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY + '-dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 
@@ -81,8 +81,8 @@ module.exports = {
   build: {
     env: require('./prod.env'),
     // Template for index.html
-    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist/index.html'),
-    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY +'-' +env.ENV_CONFIG+ '-dist'),
+    index: path.resolve(__dirname, '../{{ name }}-'+ ENTRY + '-dist/index.html'),
+    assetsRoot: path.resolve(__dirname, '../{{ name }}-'+ ENTRY + '-dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 
