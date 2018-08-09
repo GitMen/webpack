@@ -27,7 +27,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': env,
-      'process.api': '"https://{{ devDomain }}{{ apiHost }}"',
+      'process.api': '"https://{{ devDomain }}.{{ apiHost }}"',
     }),
     new UglifyJsPlugin({
       uglifyOptions: {
