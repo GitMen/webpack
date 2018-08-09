@@ -13,7 +13,6 @@ Vue.prototype.$echarts = echarts
 {{/ECharts}}
 
 Vue.use(VueResource)
-
 // 如果本地有token则设置
 if (localStorage.token) {
   Vue.http.headers.common['token'] = localStorage.token
