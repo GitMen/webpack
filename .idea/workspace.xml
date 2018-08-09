@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4c165b-b14e-497d-a565-3eef5c4371c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template/src/filters/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/pages/project/common-components/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/pages/project/config/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/src/pages/project/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/pages/project/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/src/pages/project/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/pages/project/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -85,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/src/pages/project/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -98,11 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="425">
+              <caret line="128" column="31" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -176,8 +170,8 @@
         <option value="$PROJECT_DIR$/meta.js" />
         <option value="$PROJECT_DIR$/template/src/pages/project/router/index.js" />
         <option value="$PROJECT_DIR$/template/src/filters/index.js" />
-        <option value="$PROJECT_DIR$/template/package.json" />
         <option value="$PROJECT_DIR$/template/src/pages/project/main.js" />
+        <option value="$PROJECT_DIR$/template/package.json" />
       </list>
     </option>
   </component>
@@ -307,12 +301,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533782698808</updated>
-      <workItem from="1533782700135" duration="15773000" />
+      <workItem from="1533782700135" duration="16544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15773000" />
+    <option name="totallyTimeSpent" value="16544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
@@ -327,7 +321,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.45572138" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.26268658" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -615,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/meta.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -662,13 +649,6 @@
     <entry file="file://$PROJECT_DIR$/template/src/filters/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/src/pages/project/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -677,6 +657,20 @@
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#140#158#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="128" column="31" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="31" />
         </state>
       </provider>
     </entry>
