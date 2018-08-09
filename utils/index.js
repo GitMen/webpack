@@ -75,7 +75,7 @@ To get started:
   ${yellow(
     `${data.inPlace ? '' : `cd ${data.destDirName}\n  `}${installMsg(
       data
-    )}${lintMsg(data)}npm run dev`
+    )}${lintMsg(data)}npm run project`
   )}
   
 Documentation can be found at https://vuejs-templates.github.io/webpack
