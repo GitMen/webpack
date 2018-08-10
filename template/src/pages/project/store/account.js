@@ -1,3 +1,4 @@
+const Vue = window.Vue
 export default {
   namespaced: true,
   state: {
