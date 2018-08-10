@@ -1,4 +1,4 @@
-import alpha from './alpha'
+import demo from './demo'
 export default {
-  alpha
+  demo
 }
